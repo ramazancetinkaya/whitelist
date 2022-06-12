@@ -1,3 +1,5 @@
+<?php
+
 /**
  * Returns if the given ip is on the given whitelist.
  *
@@ -36,3 +38,5 @@ function isAllowedIp($ip, array $whitelist)
     // return false on default
     return false;
 }
+
+?>
